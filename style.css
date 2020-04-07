@@ -1,0 +1,31 @@
+/* Navbar */
+.navbar {
+    background-color: #F4F4F4;
+}
+
+.nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img/2jonathan-borba-DyYgLfuhaa8-unsplash.jpg);
+    background-size: cover;
+    height: 540px;
+    width: 1100px;
+    margin: auto;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover {
+        color: #B39964;
+    }
+}
